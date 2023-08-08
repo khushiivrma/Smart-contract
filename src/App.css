@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(75, 219, 219);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+
+  padding: 5px 10px;
+  background-color: #16222e;
+  color: rgba(255, 255, 255, 0.826);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+span {
+  flex-grow: 1;
+}
